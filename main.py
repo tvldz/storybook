@@ -21,12 +21,12 @@ OLLAMA_MODEL = 'gemma:7b'
 OLLAMA_PROMPT = '''Create text from the page of an illustrated children\'s fantasy book. 
 This text should be around 20 words. If you desire, you can include a hero, monster, mythical 
 creature or artifact. You can choose a random mood or theme. Be creative.'''.replace("\n", "")
-SD_LOCATION = '/home/user/OnnxStream/src/build/sd'
-SD_MODEL_PATH = '/home/user/sd_models/stable-diffusion-xl-turbo-1.0-onnxstream'
+SD_LOCATION = '/home/rick/storybook/OnnxStream/src/build/sd'
+SD_MODEL_PATH = '/home/rick/storybook/storybook/sd_models/stable-diffusion-xl-turbo-1.0-onnxstream'
 SD_PROMPT = 'an illustration in a children\'s book for the following scene: '
 SD_STEPS = 3
-TEMP_IMAGE_FILE = '/home/user/storybook/image.png' # for temp image storage
-FONT_FILE = '/home/user/storybook/CormorantGaramond-Regular.ttf'
+TEMP_IMAGE_FILE = '/home/rick/storybook/storybook/image.png' # for temp image storage
+FONT_FILE = '/home/rick/storybook/storybook/CormorantGaramond-Regular.ttf'
 FONT_SIZE = 21
 
 def get_story():
