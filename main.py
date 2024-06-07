@@ -14,7 +14,7 @@ from inky.auto import auto
 display = auto()
 
 GENERATION_INTERVAL = 1800 #seconds
-DISPLAY_RESOLUTION = (448, 600)
+DISPLAY_RESOLUTION = (448, 600)   # (448, 600) for 5.7  (480,800) for 7 inch screen
 TOTAL_LINES = 6
 OLLAMA_API = 'http://localhost:11434/api/generate'
 OLLAMA_MODEL = 'gemma:7b'
